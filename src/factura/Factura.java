@@ -24,7 +24,7 @@ public class Factura {
 	public LineaFactura lineas[];	
 		
 	/**
-	 * Constructor de la factura.
+	 * Constructor de la Factura.
 	 * @param idCliente Identificador del cliente al que se le dirige la factura.
 	 * @param nombreCliente Nombre del cliente al que se le dirige la factura.
 	 * @param lineas Lista de productos comprados que apareceran en la factura.
@@ -73,7 +73,7 @@ public class Factura {
 	public static void main(String[] args){
 		
 		/**
-		 * Crear una factura
+		 * Crear una factura y sus diferentes lineas
 		 */
 		LineaFactura[] lineas = new LineaFactura[]{
 				new LineaFactura("P100", "Leche",	0.85f, 	6, 	0 ),

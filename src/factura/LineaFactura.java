@@ -30,7 +30,7 @@ public class LineaFactura {
 	
 	
 	/**
-	 * Constructor de la clase.
+	 * Constructor de la LineaFactura.
 	 * @param idProducto Identificador del producto comprado.
 	 * @param nombreProducto Nombre del producto comprado.
 	 * @param precio Precio del producto comprado.
